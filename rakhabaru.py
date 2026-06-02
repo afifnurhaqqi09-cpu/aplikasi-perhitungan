@@ -54,7 +54,7 @@ match pilihan:
             st.success(f"Luas Segitiga: {luas}")
             st.success(f"Keliling Segitiga: {keliling}")
             st.snow()
-case "Kubus":
+    case "Kubus":
         st.title("Kubus")
         st.markdown("Menghitung Volume, Luas Permukaan, dan Keliling Kubus")
         sisi = st.number_input("Masukkan Panjang Sisi/Rusuk Kubus", min_value=0.0, step=0.1)
