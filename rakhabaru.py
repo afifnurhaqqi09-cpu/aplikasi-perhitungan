@@ -66,6 +66,7 @@ case "Kubus":
             st.success(f"Luas Permukaan Kubus: {luas_permukaan:.2f}")
             st.success(f"Keliling Kubus (Total Panjang Rusuk): {keliling:.2f}")
             st.snow()
+
     case "Lingkaran":
         st.title("Lingkaran")
         st.markdown("Menghitung Luas dan Keliling Lingkaran")
