@@ -10,7 +10,7 @@ with st.sidebar:
     with col2:
         st.image("kep-removebg-preview.png")
     st.title("Bangun Datar")
-    pilihan = st.selectbox("Pilih Bangun Datar", ["Persegi", "Persegi Panjang", "Segitiga", "Lingkaran","kubus"])
+    pilihan = st.selectbox("Pilih Bangun Datar", ["Persegi", "Persegi Panjang", "Segitiga", "Lingkaran","Kubus"])
     st.caption("Dibuat Dengan :🗿: Oleh  **Rakha Syakir W**")
 
 
