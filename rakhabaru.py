@@ -54,19 +54,18 @@ match pilihan:
             st.success(f"Luas Segitiga: {luas}")
             st.success(f"Keliling Segitiga: {keliling}")
             st.snow()
-    case "Kubus":
-    st.title("Kubus")
-    st.markdown("Menghitung Volume, Luas Permukaan, dan Keliling Kubus")
-    sisi = st.number_input("Masukkan Panjang Sisi/Rusuk Kubus", min_value=0.0, step=0.1)
+case "Kubus":
+        st.title("Kubus")
+        st.markdown("Menghitung Volume, Luas Permukaan, dan Keliling Kubus")
+        sisi = st.number_input("Masukkan Panjang Sisi/Rusuk Kubus", min_value=0.0, step=0.1)
         if st.button("Hitung", type="primary"):
-        volume = sisi ** 3
-        luas_permukaan = 6 * (sisi ** 2)
-        keliling = 12 * sisi
+            volume = sisi ** 3
+            luas_permukaan = 6 * (sisi ** 2)
+            keliling = 12 * sisi
             st.success(f"Volume Kubus: {volume:.2f}")
             st.success(f"Luas Permukaan Kubus: {luas_permukaan:.2f}")
             st.success(f"Keliling Kubus (Total Panjang Rusuk): {keliling:.2f}")
             st.snow()
-
     case "Lingkaran":
         st.title("Lingkaran")
         st.markdown("Menghitung Luas dan Keliling Lingkaran")
